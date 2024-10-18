@@ -10,9 +10,9 @@ namespace HertaBot
 {
     public static class Tools
     {
-        public static string autoreplyoptinPath = "C:\\Users\\kuzzz\\source\\repos\\HertaBot\\HertaBot\\autoreplyoptin.txt";
-        public static string dollsPath = "C:\\Users\\kuzzz\\source\\repos\\HertaBot\\HertaBot\\dolls.json";
-        public static string autoProxiesPath = "C:\\Users\\kuzzz\\source\\repos\\HertaBot\\HertaBot\\autoproxy.json";
+        public static string autoreplyoptinPath = "..\\autoreplyoptin.txt";
+        public static string dollsPath = "..\\dolls.json";
+        public static string autoProxiesPath = "..\\autoproxy.json";
         public static async Task<Stream> GetStreamFromUrlAsync(string url)
         {
             byte[] imageData = null;

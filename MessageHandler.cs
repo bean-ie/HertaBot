@@ -369,7 +369,7 @@ namespace HertaBot
             Task.Run(async () =>
             {
                 if (message.Author.IsBot) return;
-                if (File.ReadAllLines("C:\\Users\\kuzzz\\source\\repos\\HertaBot\\HertaBot\\channeldisable.txt").Contains(message.Channel.Id.ToString())) return;
+                if (File.ReadAllLines("..\\channeldisable.txt").Contains(message.Channel.Id.ToString())) return;
                 /*
                 string channelName = message.Channel.Name;
                 string name = "Herta #" + random.Next(1000) + " in #" + channelName;

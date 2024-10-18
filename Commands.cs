@@ -311,7 +311,7 @@ namespace HertaBot
         {
             if ((Context.User as SocketGuildUser).GuildPermissions.ManageChannels)
             {
-                string disablePath = "C:\\Users\\kuzzz\\source\\repos\\HertaBot\\HertaBot\\channeldisable.txt";
+                string disablePath = "..\\channeldisable.txt";
                 string[] disableLines = File.ReadAllLines(disablePath);
                 if (disableLines.Contains(channel.Id.ToString()))
                 {
